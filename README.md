@@ -2,9 +2,9 @@
 DATA 606 – Project Phase 1 (Project Pitch)
 
 ## Team Members
-Gaurav Dali
-Gopinath Mohanasundaram
-Kortu Kiazolu
+- Gaurav Dali
+- Gopinath Mohanasundaram
+- Kortu Kiazolu
 
 ## Kaggle Team ID
 (Add your Kaggle team ID here
