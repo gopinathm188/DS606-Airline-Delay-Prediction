@@ -10,7 +10,7 @@
 
 ---
 
-## 📋 Quick Overview
+## Quick Overview
 
 | Aspect | Details |
 |--------|---------|
@@ -20,11 +20,11 @@
 | **Dataset** | 171,426 samples (2013-2023) |
 | **Models** | 4 approaches: Regression, Classification, Time-Series, Carrier Analysis |
 | **Best Results** | F1=84.28%, RMSE=3.21 min, Accuracy=79.28% |
-| **Capstone Status** | ✅ ALL COMPONENTS EXCEED 70% THRESHOLD |
+| **Capstone Status** | ALL COMPONENTS EXCEED 70% THRESHOLD |
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 This capstone project develops a multi-faceted airline delay prediction system using machine learning across four analytical dimensions:
 
@@ -37,7 +37,7 @@ This capstone project develops a multi-faceted airline delay prediction system u
 
 ---
 
-## 👥 Team Members
+## Team Members
 
 | Name | Role | University |
 |------|------|------------|
@@ -47,7 +47,7 @@ This capstone project develops a multi-faceted airline delay prediction system u
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 **Source**: Kaggle - Airline Delay Dataset with Weather Integration
 
@@ -72,7 +72,7 @@ TOTAL:       2013-2023  →  171,426 samples (100%)
 
 ---
 
-## 🗂️ Repository Structure
+## Repository Structure
 
 ```
 DS606-Airline-Delay-Prediction/
@@ -111,7 +111,7 @@ DS606-Airline-Delay-Prediction/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### **1. Clone Repository**
 ```bash
@@ -139,7 +139,7 @@ jupyter notebook notebooks/Airline-Delay-Prediction-Final_code.ipynb
 
 ---
 
-## 📖 Main Notebook Structure
+## Main Notebook Structure
 
 **File**: `notebooks/Airline-Delay-Prediction-Final_code.ipynb` (30 cells)
 
@@ -189,26 +189,26 @@ jupyter notebook notebooks/Airline-Delay-Prediction-Final_code.ipynb
 
 ## 📈 Results Summary
 
-### **Capstone Compliance Status** ✅
+### **Capstone Compliance Status** 
 
 | Component | Best Metric | Value | Requirement | Status |
 |-----------|------------|-------|-------------|--------|
-| **Regression** | Test R² | 0.0921 | ≥ 0 | ✅ PASS |
-| **Classification** | F1-Score | 0.8428 (84.28%) | ≥ 70% | ✅✅ EXCELLENT |
-| **Time-Series** | Test RMSE | 3.21 min | Beat Baseline | ✅ EXCELLENT |
-| **Carriers** | Avg Accuracy | 79.28% | ≥ 70% | ✅✅ EXCELLENT |
+| **Regression** | Test R² | 0.0921 | ≥ 0 | PASS |
+| **Classification** | F1-Score | 0.8428 (84.28%) | ≥ 70% | EXCELLENT |
+| **Time-Series** | Test RMSE | 3.21 min | Beat Baseline | EXCELLENT |
+| **Carriers** | Avg Accuracy | 79.28% | ≥ 70% | EXCELLENT |
 
 ### **Overall Assessment**
 ```
-✅✅✅ ALL FOUR COMPONENTS EXCEED 70% CAPSTONE THRESHOLD
-✅✅✅ MODELS DEMONSTRATE GENUINE LEARNING
-✅✅✅ RESULTS ARE OPERATIONALLY MEANINGFUL
-✅✅✅ READY FOR REAL-WORLD DEPLOYMENT
+ ALL FOUR COMPONENTS EXCEED 70% CAPSTONE THRESHOLD
+ MODELS DEMONSTRATE GENUINE LEARNING
+ RESULTS ARE OPERATIONALLY MEANINGFUL
+ READY FOR REAL-WORLD DEPLOYMENT
 ```
 
 ---
 
-## 🔑 Key Results
+## Key Results
 
 ### **Part 1: Regression**
 - **Model**: Ridge Regression
@@ -217,7 +217,7 @@ jupyter notebook notebooks/Airline-Delay-Prediction-Final_code.ipynb
 - **MAE**: 16.67 minutes
 - **Why Selected**: No overfitting, stable across all splits
 
-### **Part 2: Classification** ⭐
+### **Part 2: Classification**
 - **Model**: Random Forest
 - **F1-Score**: 0.8428 (84.28%)
 - **Accuracy**: 84.18%
@@ -243,33 +243,33 @@ Correct Predictions: 7,477 / 9,032 (84.18%)
 - **Baseline (Seasonal Naive) RMSE**: 3.45 minutes
 - **Improvement**: 7% better than baseline
 
-### **Part 4: Carrier Analysis** ⭐
+### **Part 4: Carrier Analysis**
 
 **September Results** (Peak Performance Month):
 ```
 Rank  Carrier       Actual    Predicted   Error    Accuracy
 ────────────────────────────────────────────────────────────
-1.    Southwest     46.82     47.40      +0.59    90.8% 🥇
-2.    JetBlue       66.30     61.93      -4.38    84.1% 🥈
-3.    Alaska        42.90     40.90      -2.00    78.6% 🥉
+1.    Southwest     46.82     47.40      +0.59    90.8%
+2.    JetBlue       66.30     61.93      -4.38    84.1%
+3.    Alaska        42.90     40.90      -2.00    78.6%
 4.    Frontier      59.56     57.20      -2.36    72.9%
 5.    Hawaiian      34.21     37.50      +3.29    70.0%
 ──────────────────────────────────────────────────
-AVERAGE           50.16     49.18      ±1.41    79.28% ✅
+AVERAGE           50.16     49.18      ±1.41    79.28%
 ```
 
 **Extended Analysis** (All 5 Months):
 - July: 77.4% average accuracy
 - August: 77.96% average accuracy
-- September: 79.28% average accuracy ⭐ BEST
+- September: 79.28% average accuracy  BEST
 - October: 79.72% average accuracy
 - December: 80.88% average accuracy
 
-**Critical Finding**: **25/25 carriers** (5 months × 5 carriers) exceed 70% threshold ✅
+**Critical Finding**: **25/25 carriers** (5 months × 5 carriers) exceed 70% threshold
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 **Data Science & ML**:
 - scikit-learn (v1.0+) - Model training and evaluation
@@ -288,7 +288,7 @@ AVERAGE           50.16     49.18      ±1.41    79.28% ✅
 
 ---
 
-## 📚 How to Use
+## How to Use
 
 ### **For Instructors/Reviewers**:
 1. **Quick Overview**: Read this README
@@ -357,24 +357,24 @@ Compare across 5 months
 
 ---
 
-## 🎓 Capstone Requirements Met
+## Capstone Requirements Met
 
-✅ **Phase 3: Execution and Interpretation**
+ **Phase 3: Execution and Interpretation**
 
-- ✅ **Concrete Outcomes**: 4 models with specific metrics
-- ✅ **Model Performance**: All exceed 70% minimum
-  - Classification: 84.28% F1 ✅
-  - Time-Series: 3.21 min RMSE ✅
-  - Carriers: 79.28% avg accuracy ✅
-- ✅ **Different Methods**: Regression, Classification, Time-Series, Carrier Analysis
-- ✅ **Hypothesis Validation**: Demonstrated across multiple dimensions
-- ✅ **GitHub Documentation**: Complete organized repository
-- ✅ **Presentation**: 27-slide PPT with all results
-- ✅ **Report**: Comprehensive analysis in notebook
+-  **Concrete Outcomes**: 4 models with specific metrics
+-  **Model Performance**: All exceed 70% minimum
+  - Classification: 84.28% F1 
+  - Time-Series: 3.21 min RMSE 
+  - Carriers: 79.28% avg accuracy 
+-  **Different Methods**: Regression, Classification, Time-Series, Carrier Analysis
+-  **Hypothesis Validation**: Demonstrated across multiple dimensions
+-  **GitHub Documentation**: Complete organized repository
+-  **Presentation**: 27-slide PPT with all results
+-  **Report**: Comprehensive analysis in notebook
 
 ---
 
-## 📊 Project Statistics
+##  Project Statistics
 
 | Metric | Value |
 |--------|-------|
@@ -387,7 +387,7 @@ Compare across 5 months
 | Best F1-Score | 84.28% |
 | Best RMSE | 3.21 min |
 | Carrier Success Rate | 25/25 (100%) |
-| Capstone Status | ✅ EXCELLENT |
+| Capstone Status |  EXCELLENT |
 
 ---
 
@@ -404,7 +404,7 @@ Compare across 5 months
 
 ---
 
-## 🚨 Important Notes
+## Important Notes
 
 ### **Data**
 - Dataset file is large (~100 MB+)
@@ -423,13 +423,13 @@ Compare across 5 months
 
 ---
 
-## 💡 Key Insights
+##  Key Insights
 
 ### **What Worked Well**
-✅ Ridge regression prevents overfitting on aggregate data
-✅ Random Forest achieves excellent classification (84.28% F1)
-✅ SARIMA captures seasonal patterns effectively
-✅ All 25 carriers exceed minimum performance threshold
+ Ridge regression prevents overfitting on aggregate data
+ Random Forest achieves excellent classification (84.28% F1)
+ SARIMA captures seasonal patterns effectively
+ All 25 carriers exceed minimum performance threshold
 
 ### **Model Selection Rationale**
 - **Ridge**: L2 regularization prevents memorization on monthly data
@@ -439,7 +439,7 @@ Compare across 5 months
 
 ---
 
-## 🎯 Next Steps for Users
+## Next Steps for Users
 
 1. **Understand the Data**: Explore cells 6-10 (EDA)
 2. **Learn Feature Engineering**: Review cells 11-15
@@ -449,7 +449,7 @@ Compare across 5 months
 
 ---
 
-## 📧 Contact & Support
+## Contact & Support
 
 **Course**: DS606 - Machine Learning Capstone
 **Semester**: Spring 2026
@@ -462,7 +462,7 @@ Compare across 5 months
 
 ---
 
-## 📜 License
+## License
 
 MIT License - See [LICENSE](LICENSE) file for full details
 
@@ -470,7 +470,7 @@ This project is free to use for educational and non-commercial purposes.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Kaggle** for the airline delay dataset
 - **Course Instructor** for guidance and support
@@ -479,19 +479,19 @@ This project is free to use for educational and non-commercial purposes.
 
 ---
 
-## ⭐ Show Your Support
+## Show Your Support
 
 If this project helped you understand machine learning capstone projects, please:
-- ⭐ Star this repository
-- 🍴 Fork for your own learning
-- 📝 Cite in your work
+-  Star this repository
+-  Fork for your own learning
+-  Cite in your work
 
 ---
 
 <div align="center">
 
 **Last Updated**: May 13, 2026
-**Status**: ✅ Completed & Submitted
+**Status**:  Completed & Submitted
 **Capstone Grade**: Pending
 
 **Thank you for visiting this repository!**
